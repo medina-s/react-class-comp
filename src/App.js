@@ -9,7 +9,7 @@ class App extends Component {
   render(){
     return (
       <div className="App">
-        <Films />
+        <Films favNumber={42} fname={"Justin"} />
       </div>
     );
   }
